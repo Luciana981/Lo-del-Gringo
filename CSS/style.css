@@ -6,12 +6,21 @@
     box-sizing: border-box;
 }
 
+/*Variables en root*/ 
 :root {
     --color-principal: rgb(228, 177, 123);
     --color-transparente: rgba(206, 63, 63, 0.8);
     --colorclaro: rgb(243, 207, 96);
 }
 
+.contenedor{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+/*Estilos en el header*/
 header {
     background-color: var(--color-principal);
     height: 95px;
