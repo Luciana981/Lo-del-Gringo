@@ -40,6 +40,7 @@ header .menu{
     text-align: right;
 }
 
+/*Estilos a los elementos del header*/
 header .menu a{
     text-decoration: none;
     display: inline-block;
@@ -53,6 +54,22 @@ header .menu a{
 header .menu a:hover{
     text-decoration: underline;
 }
+
+header .titulo{
+    width: 100%;
+    color: var(--color-fuente);
+    position: absolute;
+    top: 57%;
+    margin-top: -3%;
+    padding-left: 35%;
+}
+
+header .titulo .nombre{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/*Fin de estilos del header*/
 
 nav ul li a {
     text-decoration: none;
