@@ -69,6 +69,7 @@ header .titulo .nombre{
     font-size: 60px;
     font-weight: 600;
     margin-left: 10%;
+    margin-top: -4%;
 }
 
 header .titulo .nombre span{
@@ -90,4 +91,10 @@ header .titulo h2{
 
 /*Fin de estilos del header*/
 
+/*Comienzo de la presentacion de la pagina*/
+
+.main .historia .contenedor{
+    overflow: visible;
+    position: relative;
+}
 
