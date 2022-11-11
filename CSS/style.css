@@ -71,33 +71,7 @@ header .titulo .nombre{
 
 /*Fin de estilos del header*/
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
 
-nav ul {
-    margin-top: -10px;
-    padding-bottom: 20%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
-    padding: 15px;
-    margin-right: 25px;
-    border-radius: 15px;
-    transition: all 250ms ease-out;
-}
-
-nav ul li :hover {
-    color: black;
-    background-color: var(--colorclaro);
-}
 
 #logo img {
     width: 13%;
