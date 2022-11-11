@@ -82,6 +82,12 @@ header .titulo img{
     margin-top: -20%;
 }
 
+header .titulo h2{
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 10%;
+}
+
 /*Fin de estilos del header*/
 
 
