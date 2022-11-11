@@ -8,6 +8,7 @@
 
 /*Variables en root*/ 
 :root {
+    --color-fuente: azure;
     --color-principal: rgb(228, 177, 123);
     --color-transparente: rgba(206, 63, 63, 0.8);
     --colorclaro: rgb(243, 207, 96);
@@ -22,8 +23,31 @@
 
 /*Estilos en el header*/
 header {
+    width: 100%;
     background-color: var(--color-principal);
-    height: 95px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+header .contenedor{
+    position: relative;
+    height: 500px;
+}
+
+header .menu{
+    width: 100%;
+    text-align: right;
+}
+
+header .menu a{
+    text-decoration: none;
+    display: inline-block;
+    color:var(--color-fuente);
+    font-size: 30px;
+    font-weight: 200;
+    margin: 40px 20px;
+    position: relative;
 }
 
 nav ul li a {
