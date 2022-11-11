@@ -38,6 +38,7 @@ header .contenedor{
 header .menu{
     width: 100%;
     text-align: right;
+    border-bottom: 1px solid var(--color-fuente);
 }
 
 /*Estilos a los elementos del header*/
@@ -45,9 +46,9 @@ header .menu a{
     text-decoration: none;
     display: inline-block;
     color:var(--color-fuente);
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 200;
-    margin: 40px 20px;
+    margin: 40px 40px;
     position: relative;
 }
 
@@ -65,26 +66,22 @@ header .titulo{
 }
 
 header .titulo .nombre{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
+    margin-left: 10%;
+}
+
+header .titulo .nombre span{
+    font-weight: 200;
+}
+
+header .titulo img{
+    width: 26%;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -20%;
 }
 
 /*Fin de estilos del header*/
 
-
-
-#logo img {
-    width: 13%;
-}
-
-#logo a {
-    text-decoration: none;
-}
-
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    margin-top: -80px;
-    margin-left: 16%;
-}
 
