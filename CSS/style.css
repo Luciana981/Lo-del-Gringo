@@ -93,8 +93,5 @@ header .titulo h2{
 
 /*Comienzo de la presentacion de la pagina*/
 
-.main .historia .contenedor{
-    overflow: visible;
-    position: relative;
-}
+
 
