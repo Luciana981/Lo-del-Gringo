@@ -93,6 +93,18 @@ header .titulo h2{
 
 /*Comienzo de la presentacion de la pagina*/
 
+.main .historia .contenedor{
+    overflow: hidden;
+    position: relative;
+}
 
+.main .historia .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50%;
+    z-index: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.35);
+}
 
 
