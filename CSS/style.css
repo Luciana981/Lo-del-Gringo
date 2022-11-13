@@ -274,13 +274,16 @@ footer .centro-footer p{
 /*Fin de estilos en la parte central del footer*/
 
 /*Comienzo de estilos en la parte derecha del footer*/
-footer .der-footer .reloj{
-    width: 10%;
-    margin-left: -17%;
-    margin-top: 20%;
-}
 
 footer .der-footer .horarios{
     margin-left: 80%;
-    margin-top: -46%;
+    margin-top: -18%;
+}
+
+footer .der-footer .horarios p{
+    margin-bottom: 7px;
+}
+
+footer .der-footer .horarios h3{
+    margin-bottom: 10px;
 }
