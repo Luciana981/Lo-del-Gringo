@@ -3,8 +3,7 @@ const typedTextSpan = document.querySelector(".texto-tipeado");
 const cursorSpan = document.querySelector (".cursor");
 
 const textArray = ["Familiar", "Rico", "Amabilidad", "Pet Friendly"];//definiendo los textos de texto-tipeado
-//se definen los retrasos en milisegundos
-const typingDelay = 200; 
+const typingDelay = 200; //se definen los retrasos en milisegundos
 const erasingDelay = 100;
 const newTextDelay = 2000;
 let textArrayIndex = 0;
@@ -23,7 +22,23 @@ function type() {
      setTimeout(erase, newTextDelay); //se agrega un retraso de 2000 milisegundos antes de pasar a la funcion de erase
     }
 }
+//#endregion
 
+//#region 
+function erase() {
+    if(charIndex > 0){
+        typedTextSpan.textContent = textArray[textArrayIndex].charAt(charIndex).substring(0, charIndex - 1);
+        charIndex--;//se resta por uno
+        setTimeout(erase, erasingDelay);
+    }else{
+        textArrayIndex++;
+        if (textArrayIndex>=textArray.length) textArrayIndex=0;
+        setTimeout(type, typingDelay + 1100);
+    }
+}
+//#endregion
+
+//#region 
 //agregado para tener control del llamado de la funcion
 document.addEventListener("DOMContentLoaded", function() {//cuando todos los elementos DOM carguen, se va a ejecutar la funcion
     if (textArray.length) setTimeout(type, newTextDelay + 250);//se le agrega un retraso de 250 milisegundos antes de ejecutar la funcion 
