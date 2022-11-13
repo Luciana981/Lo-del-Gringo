@@ -67,6 +67,10 @@ header .titulo{
     padding-left: 40%;
 }
 
+header .titulo .nombre{
+    font-size: 60px;
+    font-weight: 600;
+}
 
 html{
     font-size: 62.5%;
