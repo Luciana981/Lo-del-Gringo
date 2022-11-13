@@ -144,4 +144,9 @@ body{
     color:#444;
     border:.1rem solid #444;
 }
+
+.products-preview .preview .buttons a.cart{
+    background: #444;
+    color:#fff;
+}
  
