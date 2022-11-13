@@ -104,5 +104,10 @@ body{
 
 .products-preview .preview.active{
     display: inline-block;
- }
+}
+
+.products-preview .preview img{
+    height: 28rem;
+    width: 25rem;
+}
  
