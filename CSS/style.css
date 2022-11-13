@@ -60,4 +60,8 @@ body{
 .container .products-container .product img{
     height: 25rem;
     width: 30rem;
- }
+}
+
+.container .products-container .product:hover img{
+    transform: scale(.9);
+}
