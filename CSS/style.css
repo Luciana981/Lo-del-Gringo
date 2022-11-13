@@ -153,4 +153,9 @@ body{
 .products-preview .preview .buttons a.cart:hover{
     background: #111;
 }
+
+.products-preview .preview .buttons a.buy:hover{
+    background: #444;
+    color:#fff;
+}
  
