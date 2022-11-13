@@ -76,6 +76,8 @@ header .titulo .nombre span{
     font-weight: 200;
 }
 
+header .titulo img{}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
