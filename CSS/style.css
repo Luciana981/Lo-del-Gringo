@@ -75,3 +75,8 @@ body{
 .container .products-container .product:hover h3{
     color:#ee7c1e;
 }
+
+.container .products-container .product .price{
+    font-size: 2rem;
+    color:#444;
+ }
