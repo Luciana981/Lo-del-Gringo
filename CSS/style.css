@@ -135,8 +135,7 @@ header .titulo h2{
     padding-bottom: 650px;
     margin-bottom: 60px;
 }
-
-/*Aqui comienzan los estilos del efecto de tipeado*/
+/*Aqui comienzan los estilos del efecto de tipeado
 
 .principal .menu h3{
     display: flex;
@@ -163,18 +162,18 @@ header .titulo h2{
     animation: blink 1s infinite;
 }
 
-/*Efecto de destello*/
+/*Efecto de destello
 @keyframes blink{
     0%{
-        background-color: var(--color-borde); /*Al principio el color es negro*/
+        background-color: var(--color-borde); /*Al principio el color es negro
     }
 
     50%{
-        background-color: transparent; /*A la mitad el color es transparente*/
+        background-color: transparent; /*A la mitad el color es transparente
     }
 
     100%{
-        background-color: var(--color-borde);/*Al final el color es negro otra vez*/
+        background-color: var(--color-borde);/*Al final el color es negro otra vez
     }
 }
 
