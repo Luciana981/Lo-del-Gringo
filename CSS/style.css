@@ -62,7 +62,9 @@ header .titulo{
     width: 100%;
     color: var(--color-fuente);
     position: absolute;
-
+    top: 50%;
+    margin-top: -7%;
+    padding-left: 40%;
 }
 
 
