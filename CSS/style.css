@@ -44,7 +44,11 @@ header .menu{
 }
 
 /*Estilos a los elementos del header*/
-header .menu a{}
+header .menu a{
+    text-decoration: none;
+    display: inline-block;
+    color:var(--color-fuente);
+}
 
 html{
     font-size: 62.5%;
