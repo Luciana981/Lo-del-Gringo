@@ -98,7 +98,7 @@ header .titulo h2{
     position: relative;
 }
 
-.principal .historia .foto{
+.principal .historia .contenedor .foto{
     width: 80%;
     position: absolute;
     left: 0;
@@ -107,12 +107,12 @@ header .titulo h2{
     box-shadow: 0px 0px 10px rgba(0,0,0,.35);
 }
 
-.principal .historia .foto img{
+.principal .historia .contenedor .foto img{
     width: 100%;
     vertical-align: top;
 }
 
-.principal .historia article{
+.principal .historia .contenedor article{
     background-color: var(--color-fuente);
     padding: 40px;
     width: 50%;
@@ -123,7 +123,14 @@ header .titulo h2{
     float: right;
 }
 
-.principal .historia article{
-    
+.principal .historia article h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.principal .historia .contenedor article p{
+    line-height: 28px;
+    margin-bottom: 15px;
 }
 
