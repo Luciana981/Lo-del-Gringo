@@ -31,7 +31,8 @@ header {
     background-attachment: fixed;
     background-position: center 0;
 }
-}
+
+header .contenedor{}
 
 
 html{
