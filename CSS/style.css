@@ -135,5 +135,13 @@ body{
     gap:1.5rem;
     flex-wrap: wrap;
     margin-top: 1rem;
- }
+}
+
+.products-preview .preview .buttons a{
+    flex:1 1 16rem;
+    padding:1rem;
+    font-size: 1.8rem;
+    color:#444;
+    border:.1rem solid #444;
+}
  
