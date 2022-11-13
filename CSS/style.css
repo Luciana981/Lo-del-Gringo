@@ -13,6 +13,7 @@
     --color-transparente: rgba(206, 63, 63, 0.8);
     --colorclaro: rgb(243, 207, 96);
     --color-borde: black;
+    --color-footer:rgb(255, 239, 195);
 }
 
 .contenedor{
@@ -139,6 +140,7 @@ header .titulo h2{
 .contenedor1{
     text-align: center;
     margin-top: 6%;
+    overflow: hidden;
 }
 
 .contenedor1 .texto{
@@ -171,7 +173,7 @@ header .titulo h2{
 
 @keyframes animate{
     40%, 60%{
-        left: 100%;
+        left: calc(100% + 4px);
     }
     100%{
         left: 0%;
@@ -179,18 +181,37 @@ header .titulo h2{
 }
 
 .principal .menu .contenedor{
-    width: 45%;
+    width: 70%;
     border: 5px solid var(--color-borde);
     background-color: var(--color-principal);
     padding: 15px;
     overflow: hidden;
-    margin-top: 30%;
+    margin-top: 7%;
+    margin-bottom: -40%;
 }
 
 .principal .menu .contenedor .contenedor-muestra .contenedor-muestra2 img{
     width: 100%;
     margin-bottom: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-bottom: 4px solid;
     overflow: hidden;
+}
+
+footer{
+    background-color: var(--color-footer);
+    width: 100%;
+    height: 300px;
+}
+
+footer p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer img{
+    width: 17%;
+    margin-left: 41%;
+    padding-top: 20px;
 }
