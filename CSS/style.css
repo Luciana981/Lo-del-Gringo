@@ -20,6 +20,7 @@
     --color-transparente: rgba(206, 63, 63, 0.8);
     --colorclaro: rgb(243, 207, 96);
     --color-borde: black;
+    --color-footer:rgb(255, 239, 195);
 }
 
 html{
