@@ -5,11 +5,8 @@
     /* Font family es para el tipo de letra */
 
     margin:0; padding:0;
-    /* Margin es el margen entre cajas y padding es el espacio entre el contenido de la caja y la caja*/
+    /* Margin es el margen entre cajas y padding es el espacio entre el contenido de la caja y la caja */
     
     box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    transition: all .2s linear;
-    text-transform: capitalize;
+
 }
