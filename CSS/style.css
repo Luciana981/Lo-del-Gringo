@@ -174,5 +174,13 @@ body{
        height: 25rem;
     }
  
- }
+}
+
+@media (max-width:450px){
+
+    html{
+       font-size: 50%;
+    }
+ 
+} 
  
