@@ -149,4 +149,8 @@ body{
     background: #444;
     color:#fff;
 }
+
+.products-preview .preview .buttons a.cart:hover{
+    background: #111;
+}
  
