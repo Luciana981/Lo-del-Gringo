@@ -28,6 +28,9 @@ header {
     width: 100%;
     background-color: var(--color-principal);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
 }
 
 
