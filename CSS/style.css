@@ -32,8 +32,10 @@ header {
     background-position: center 0;
 }
 
-header .contenedor{}
-
+header .contenedor{
+    position: relative;
+    height: 500px;
+}
 
 html{
     font-size: 62.5%;
