@@ -17,4 +17,8 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+}
+
+body{
+    background: rgb(224, 222, 222);
  }
