@@ -115,6 +115,13 @@ body{
     color:#444;
     padding:.5rem 0;
     font-size: 2.5rem;
+}
+
+.products-preview .preview p{
+    line-height: 1.5;
+    padding:1rem 0;
+    font-size: 1.6rem;
+    color:#777;
  }
 
  
