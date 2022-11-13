@@ -70,4 +70,8 @@ body{
     padding:.5rem 0;
     font-size: 2rem;
     color:#444;
- }
+}
+
+.container .products-container .product:hover h3{
+    color:#ee7c1e;
+}
