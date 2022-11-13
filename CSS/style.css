@@ -136,13 +136,49 @@ header .titulo h2{
     margin-bottom: 60px;
 }
 
+/*Aqui comienzan los estilos del efecto de tipeado*/
+
 .principal .menu h3{
+    display: flex;
     font-size: 40px;
     font-weight: 300;
-    text-align: center;
+    justify-content: center;
     margin-bottom: 40px;
-    margin-top: 60%;
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
 }
+
+.texto-tipeado{
+    margin-left: 10px;
+    color: var(--color-principal);
+    font-weight: 500;
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: var(--color-borde);
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+/*Efecto de destello*/
+@keyframes blink{
+    0%{
+        background-color: var(--color-borde); /*Al principio el color es negro*/
+    }
+
+    50%{
+        background-color: transparent; /*A la mitad el color es transparente*/
+    }
+
+    100%{
+        background-color: var(--color-borde);/*Al final el color es negro otra vez*/
+    }
+}
+
+/*Aqui terminan los estilos para el efecto de tipeado*/
 
 .principal .menu .contenedor{
     width: 45%;
