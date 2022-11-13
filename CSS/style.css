@@ -91,4 +91,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.products-preview .preview{
+    display: none;
+    padding:2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin:2rem;
+    width: 40rem;
+}
  
