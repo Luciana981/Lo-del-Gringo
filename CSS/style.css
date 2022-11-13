@@ -158,4 +158,13 @@ body{
     background: #444;
     color:#fff;
 }
+
+
+@media (max-width:991px){
+
+    html{
+       font-size: 55%;
+    }
+ 
+ }
  
