@@ -65,3 +65,9 @@ body{
 .container .products-container .product:hover img{
     transform: scale(.9);
 }
+
+.container .products-container .product h3{
+    padding:.5rem 0;
+    font-size: 2rem;
+    color:#444;
+ }
