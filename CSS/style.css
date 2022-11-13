@@ -43,6 +43,9 @@ header .menu{
     border-bottom: 1px solid var(--color-fuente);
 }
 
+/*Estilos a los elementos del header*/
+header .menu a{}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
