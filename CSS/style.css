@@ -25,7 +25,9 @@
 
 /*Estilos en el header*/
 header {
-    
+    width: 100%;
+    background-color: var(--color-principal);
+    background-size: cover;
 }
 
 
