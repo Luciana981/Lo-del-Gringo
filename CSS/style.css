@@ -136,14 +136,14 @@ header .titulo h2{
     margin-bottom: 60px;
 }
 
-.contenedor .texto{
+.contenedor1 .texto{
     position: relative;
     color: var(--color-principal);
     font-size: 30px;
     font-weight: 300;
 }
 
-.contenedor .texto.primer-texto{
+.contenedor1 .texto.primer-texto{
     color: var(--color-borde);
 }
 
