@@ -178,6 +178,10 @@ header .titulo h2{
     }
 }
 
+.cursor .tipeado{
+    animation: none;
+}
+
 /*Aqui terminan los estilos para el efecto de tipeado*/
 
 .principal .menu .contenedor{
