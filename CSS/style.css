@@ -34,13 +34,12 @@ header {
 
 header .contenedor{
     position: relative;
-    height: 500px;
+    height: 100px;
 }
 
 header .menu{
     width: 100%;
     text-align: right;
-    border-bottom: 1px solid var(--color-fuente);
 }
 
 /*Estilos a los elementos del header*/
