@@ -171,6 +171,7 @@ header .titulo h2{
     margin-left: 5px;
 }
 
+
 @keyframes animate{
     40%, 60%{
         left: calc(100% + 4px);
@@ -196,8 +197,12 @@ header .titulo h2{
     padding-bottom: 30px;
     border-bottom: 4px solid;
     overflow: hidden;
+    display: inline-block;
 }
 
+/*Aqui terminan los estilos del contenido principal*/
+
+/*Aqui comienzan los estilos del footer*/
 footer{
     background-color: var(--color-footer);
     width: 100%;
@@ -214,4 +219,10 @@ footer img{
     width: 17%;
     margin-left: 41%;
     padding-top: 20px;
+}
+
+footer .info .icon{
+    width: 2%;
+    margin-left: 70%;
+    margin-top: -20%;
 }
