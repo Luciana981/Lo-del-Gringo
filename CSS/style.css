@@ -242,10 +242,30 @@ footer .izq-footer .telefono{
     margin-bottom: 10%;
 }
 
+footer .izq-footer .locacion, .telefono{
+    margin-top: 10%;
+}
+
 /*Fin de estilos en la parte izquiera del footer*/
 
-footer .info .icon{
-    width: 2%;
-    margin-left: 70%;
-    margin-top: -20%;
+/*Comienzos de estilos en la parte central del footer*/
+
+footer .centro-footer{
+    width: 40%;
+    margin-left: 45%;
+    margin-top: -12%;
 }
+
+footer .centro-footer img{
+    width: 45%;
+    margin-left: -6%;
+}
+
+footer .centro-footer p{
+    margin-left: -20%;
+    font-size: 35px;
+    margin-top: -45%;
+    margin-bottom: 2%;
+}
+
+/*Fin de estilos en la parte central del footer*/
