@@ -50,5 +50,9 @@ body{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     outline: .1rem solid #ccc;
     outline-offset: -1.5rem;
+}
 
+.container .products-container .product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
  }
