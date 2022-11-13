@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
 *{
     font-family: 'Nunito', sans-serif;
+    /* Font family es para el tipo de letra */
+
+    margin:0; padding:0;
+    /* Margin es el margen entre cajas y padding es el espacio entre el contenido de la caja y la caja*/
+    
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
 }
