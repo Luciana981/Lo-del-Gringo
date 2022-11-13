@@ -72,6 +72,11 @@ header .titulo .nombre{
     font-weight: 600;
 }
 
+header .titulo .nombre{
+    font-size: 60px;
+    font-weight: 600;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
