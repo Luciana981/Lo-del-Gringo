@@ -17,6 +17,9 @@
 :root {
     --color-fuente: white;
     --color-principal: rgb(228, 177, 123);
+    --color-transparente: rgba(206, 63, 63, 0.8);
+    --colorclaro: rgb(243, 207, 96);
+    --color-borde: black;
 }
 
 html{
