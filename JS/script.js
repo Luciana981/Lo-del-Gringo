@@ -11,5 +11,16 @@ let charIndex = 0;
 //#endregion
 
 //#region 
+function type() {
+    if(charIndex < textArray[textArrayIndex].length){//aqui se inserta el array de los textos
+        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingDelay);
+    }else{
+        //aqui se borra el texto para proceder a otro
+    }
+}
+
+type();
 
 //#endregion
