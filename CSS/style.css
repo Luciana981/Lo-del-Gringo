@@ -48,6 +48,10 @@ header .menu a{
     text-decoration: none;
     display: inline-block;
     color:var(--color-fuente);
+    font-size: 26px;
+    font-weight: 300;
+    margin: 40px 40px;
+    position: relative;
 }
 
 html{
