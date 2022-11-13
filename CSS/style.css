@@ -79,4 +79,14 @@ body{
 .container .products-container .product .price{
     font-size: 2rem;
     color:#444;
- }
+}
+
+.products-preview{
+    position: fixed;
+    top:0;
+     left:0;
+    min-height: 90vh;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+}
+ 
