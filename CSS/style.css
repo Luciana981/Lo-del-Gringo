@@ -99,8 +99,8 @@ header .titulo h2{
 .principal .historia .foto{
     width: 53%;
     position: absolute;
-    left: 16%;
-    top: -15%;
+    left: 17%;
+    margin-top: -4%;
     z-index: 0;
     box-shadow: 0px 0px 10px rgba(0,0,0,.35);
     vertical-align: top;
@@ -108,10 +108,10 @@ header .titulo h2{
 
 .principal .historia article{
     background-color: var(--color-fuente);
-    padding: 40px;
+    padding: 20px;
     width: 50%;
+    margin-top: 30%;
     position: relative;
-    top: 250px;
     z-index: 1;
     box-shadow: 0px 0px 10px rgba(0,0,0,.35);
     float: right;
