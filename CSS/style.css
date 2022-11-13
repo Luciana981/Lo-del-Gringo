@@ -122,6 +122,11 @@ body{
     padding:1rem 0;
     font-size: 1.6rem;
     color:#777;
- }
+}
 
+.products-preview .preview .price{
+    padding:1rem 0;
+    font-size: 2.5rem;
+    color:#27ae60;
+}
  
