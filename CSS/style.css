@@ -116,5 +116,14 @@ header .titulo h2{
     background-color: var(--color-fuente);
     padding: 40px;
     width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 250px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.35);
+    float: right;
+}
+
+.principal .historia article{
+    
 }
 
