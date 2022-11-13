@@ -91,23 +91,19 @@ header .titulo h2{
 
 /*Comienzo de la presentacion de la pagina*/
 
-.principal .historia .contenedor{
+.principal .historia{
     overflow: visible;
     position: relative;
 }
 
 .principal .historia .foto{
-    width: 80%;
+    width: 53%;
     position: absolute;
-    left: 0;
-    top: -50%;
+    left: 16%;
+    top: -15%;
     z-index: 0;
     box-shadow: 0px 0px 10px rgba(0,0,0,.35);
-}
-
-.principal .historia .foto img{
     vertical-align: top;
-    width: 100%;
 }
 
 .principal .historia article{
@@ -142,6 +138,7 @@ header .titulo h2{
     font-weight: 300;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 60%;
 }
 
 .principal .menu .contenedor{
@@ -150,6 +147,7 @@ header .titulo h2{
     background-color: var(--color-principal);
     padding: 15px;
     overflow: hidden;
+    margin-top: 30%;
 }
 
 .principal .menu .contenedor .contenedor-muestra .contenedor-muestra2 img{
