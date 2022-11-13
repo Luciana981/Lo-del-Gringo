@@ -23,6 +23,12 @@
     --color-footer:rgb(255, 239, 195);
 }
 
+/*Estilos en el header*/
+header {
+    
+}
+
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
