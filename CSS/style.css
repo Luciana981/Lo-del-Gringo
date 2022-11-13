@@ -207,19 +207,42 @@ footer{
     background-color: var(--color-footer);
     width: 100%;
     height: 300px;
+    text-align: left;
+    padding: 55px 50px;
 }
 
-footer p{
-    padding-top: 15px;
-    text-align: center;
-    font-size: 30px;
+footer .izq-footer .centro-footer .der-footer{
+    display: inline-block;
+    vertical-align: top;
 }
 
-footer img{
-    width: 17%;
-    margin-left: 41%;
-    padding-top: 20px;
+/*Aqui comienzan los estilos en la parte izquierda*/
+footer .izq-footer{
+    width: 30%;
+    font-size: 20px;
+    margin-top: -2%;
 }
+
+footer .izq-footer img{
+    width: 10%;
+    margin-left: 7%;
+    padding-top: 18px;
+}
+
+footer .izq-footer p{
+    margin-left: 25%;
+    margin-top: -10%;
+}
+
+footer .izq-footer .locacion{
+    margin-bottom: 10%;
+}
+
+footer .izq-footer .telefono{
+    margin-bottom: 10%;
+}
+
+/*Fin de estilos en la parte izquiera del footer*/
 
 footer .info .icon{
     width: 2%;
