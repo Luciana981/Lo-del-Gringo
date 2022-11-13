@@ -12,6 +12,7 @@
     --color-principal: rgb(228, 177, 123);
     --color-transparente: rgba(206, 63, 63, 0.8);
     --colorclaro: rgb(243, 207, 96);
+    --color-borde: black;
 }
 
 .contenedor{
@@ -47,7 +48,7 @@ header .menu a{
     display: inline-block;
     color:var(--color-fuente);
     font-size: 26px;
-    font-weight: 200;
+    font-weight: 300;
     margin: 40px 40px;
     position: relative;
 }
@@ -60,16 +61,14 @@ header .titulo{
     width: 100%;
     color: var(--color-fuente);
     position: absolute;
-    top: 57%;
-    margin-top: -3%;
-    padding-left: 35%;
+    top: 50%;
+    margin-top: -7%;
+    padding-left: 40%;
 }
 
 header .titulo .nombre{
     font-size: 60px;
     font-weight: 600;
-    margin-left: 10%;
-    margin-top: -4%;
 }
 
 header .titulo .nombre span{
@@ -79,14 +78,13 @@ header .titulo .nombre span{
 header .titulo img{
     width: 26%;
     position: absolute;
-    margin-left: -20%;
-    margin-top: -20%;
+    margin-left: -25%;
+    margin-top: -10%;
 }
 
 header .titulo h2{
     font-weight: 200;
     font-size: 25px;
-    margin-left: 10%;
 }
 
 /*Fin de estilos del header*/
@@ -94,7 +92,7 @@ header .titulo h2{
 /*Comienzo de la presentacion de la pagina*/
 
 .principal .historia .contenedor{
-    overflow: hidden;
+    overflow: visible;
     position: relative;
 }
 
@@ -108,17 +106,17 @@ header .titulo h2{
 }
 
 .principal .historia .contenedor .foto img{
-    width: 100%;
     vertical-align: top;
+    width: 100%;
 }
 
-.principal .historia .contenedor article{
+.principal .historia article{
     background-color: var(--color-fuente);
     padding: 40px;
     width: 50%;
     position: relative;
-    z-index: 1;
     top: 250px;
+    z-index: 1;
     box-shadow: 0px 0px 10px rgba(0,0,0,.35);
     float: right;
 }
@@ -129,8 +127,35 @@ header .titulo h2{
     margin-bottom: 40px;
 }
 
-.principal .historia .contenedor article p{
+.principal .historia article p{
     line-height: 28px;
     margin-bottom: 15px;
 }
 
+.principal .menu{
+    padding-bottom: 500px;
+    margin-bottom: 60px;
+}
+
+.principal .menu h3{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.principal .menu .contenedor{
+    width: 40%;
+    border: 5px solid var(--color-borde);
+    background-color: var(--color-principal);
+    padding: 15px;
+    overflow: hidden;
+}
+
+.principal .menu .contenedor .contenedor-muestra .contenedor-muestra2 img{
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid;
+    overflow: hidden;
+}
