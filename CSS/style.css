@@ -101,4 +101,8 @@ body{
     margin:2rem;
     width: 40rem;
 }
+
+.products-preview .preview.active{
+    display: inline-block;
+ }
  
