@@ -55,4 +55,9 @@ body{
 .container .products-container .product:hover{
     outline: .2rem solid #222;
     outline-offset: 0;
+}
+
+.container .products-container .product img{
+    height: 25rem;
+    width: 30rem;
  }
