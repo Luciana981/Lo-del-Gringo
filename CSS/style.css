@@ -37,6 +37,8 @@ header .contenedor{
     height: 500px;
 }
 
+header .menu{}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
