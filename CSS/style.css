@@ -107,7 +107,7 @@ body{
 }
 
 .container .products-container .product:hover img{
-    transform: scale(.9);
+    transform: scale(.9); /*transform te permite modificar el espacio de coordenadas del modelo */
 }
 
 .container .products-container .product h3{
