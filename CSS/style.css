@@ -133,7 +133,7 @@ body{
     background: rgba(0,0,0,.8);
     display: none;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /*justify-content define cómo el navegador distribuye el espacio entre y alrededor de los items */
 }
 
 .products-preview .preview{
@@ -216,7 +216,7 @@ body{
 }
 
 
-@media (max-width:991px){
+@media (max-width:991px){ /* @media asocia un grupo de declaraciones anidadas, en un bloque CSS delimitado por llaves.*/
 
     html{
        font-size: 55%;
