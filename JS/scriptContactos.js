@@ -23,6 +23,6 @@ function mover() {//se crea la funcion para que el boton de envio no se presione
 
 function crearEnviar() { //al hacer click que se cree un h1 y que se muevva todo el registro
 
-    if () {}
+    if (usuario.value === null || usuario.value === '' && mail.value === null || mail.value === ''&& password.value === null || password.value === '') {}
 
 } //al hacer click que se cree un h1 y que se muevva todo el registro
