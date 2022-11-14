@@ -6,5 +6,5 @@ var sensorM = 0;
 var sensorC = 0;
 
 function mover() {//se crea la funcion para que el boton de envio no se presione hasta que los campos esten llenos
-
+    
 }
