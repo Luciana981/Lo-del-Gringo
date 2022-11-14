@@ -1,13 +1,13 @@
 const text = document.querySelector(".segundo-texto");
 function textLoad() { 
     setTimeout(() => {
-        text.textContent = "Familiar";
+        text.textContent = "Familia";
     }, 0);
     setTimeout(() => {
-        text.textContent = "Amabilidad";
+        text.textContent = "Generosidad";
     }, 4000);
     setTimeout(() => {
-        text.textContent = "Pet Friendly";
+        text.textContent = "Compañerismo";
     }, 8000);
 }
 
