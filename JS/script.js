@@ -11,6 +11,9 @@ function textLoad() {
         text.textContent = "Compañerismo";
     }, 8000);
 }
+
+textLoad();
+setInterval(textLoad, 12000);
 let preveiwContainer = document.querySelector('.products-preview'); /*querySelector() Devuelve el primer elemento del documento*/
 let previewBox = preveiwContainer.querySelectorAll('.preview'); /* querySelectorAll() de un Element devuelve una NodeList estática, que representa una lista de elementos del documento que coinciden con el grupo de selectores indicados. */
 document.querySelectorAll('.products-container .product').forEach(product => { /*forEach() ejecuta la función callback una vez por cada elemento del array*/
@@ -32,5 +35,3 @@ previewBox.forEach(close => {
         preveiwContainer.style.display = 'none';
     };
 });
-textLoad();
-setInterval(textLoad, 12000);
