@@ -21,3 +21,4 @@ function mover() {//se crea la funcion para que el boton de envio no se presione
         sensorM = false;
 }
 
+function crearEnviar() {} //al hacer click que se cree un h1 y que se muevva todo el registro
