@@ -40,14 +40,14 @@ header .contenedor{
     height: 500px;
 }
 
-header .galeria{
+header .menu{
     width: 100%;
     text-align: right;
     border-bottom: 1px solid var(--color-fuente);
 }
 
 /*Estilos a los elementos del header*/
-header .galeria a{
+header .menu a{
     text-decoration: none;
     display: inline-block;
     color:var(--color-fuente);
@@ -57,7 +57,7 @@ header .galeria a{
     position: relative;
 }
 
-header .galeria a:hover{
+header .menu a:hover{
     text-decoration: underline;
 }
 
