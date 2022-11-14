@@ -7,7 +7,7 @@ var sensorC = 0;
 
 function mover() {//se crea la funcion para que el boton de envio no se presione hasta que los campos esten llenos
 
-    if (usuario.value === null || usuario.value === ''){//verifica que el campo del usuario este lleno
+    /*if (usuario.value === null || usuario.value === ''){//verifica que el campo del usuario este lleno
         sensorM = sensorM + 1;
     }
 
@@ -22,5 +22,5 @@ function mover() {//se crea la funcion para que el boton de envio no se presione
     if(sensorM >= 1){
         enviar.classList.toggle('hover');
     }
-    sensorM = 0;
+    sensorM = 0;*/
 }
