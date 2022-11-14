@@ -113,6 +113,10 @@ input{
     width: 70px;
 }
 
+.hover{
+    margin-left: 100px;
+}
+
 /*Aqui comienzan los estilos del footer*/
 footer{
     background-color: var(--color-footer);
