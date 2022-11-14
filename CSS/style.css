@@ -35,7 +35,7 @@ header {
 
 header .contenedor{
     position: relative; /*es posicionado relativo a su posición normal, es decir, el elemento se coloca relativo al flujo normal*/
-    height: 100px;
+    height: 100px; /*height especifica la altura de un elemento*/
 }
 
 header .menu{
@@ -46,10 +46,10 @@ header .menu{
 /*Estilos a los elementos del header*/
 header .menu a{
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; /*la propiedad display establece los tipos de visualización interna y externa de un elemento.*/
     color:var(--color-fuente);
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 300; /*font-weight especifica el peso o grueso de la letra.*/
     margin: 40px 40px;
     position: relative;
 }
@@ -59,16 +59,16 @@ header .menu a:hover{
 }
 
 html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+    font-size: 62.5%; /* font-size especifica la dimensión de la letra*/
+    overflow-x: hidden; /* La propiedad CSS overflow especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido en un elemento a nivel de bloque*/
 }
 
 body{
-    background: rgb(224, 222, 222);
+    background: rgb(224, 222, 222); /* background es un atajo para definir los valores individuales del fondo*/
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1200px; /*max-width coloca el máximo ancho a un elemento.*/
     margin:0 auto;
     padding:3rem 2rem;
 }
@@ -83,8 +83,8 @@ body{
 
 .container .products-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /*grid-template-columns define el nombre de las líneas y las funciones de tamaño de línea de grid columns.*/
+    gap:2rem; /*Es el ancho del canal que separa las columnas de la grilla*/
 }
 
 .container .products-container .product{
@@ -93,7 +93,7 @@ body{
     background: #fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     outline: .1rem solid #ccc;
-    outline-offset: -1.5rem;
+    outline-offset: -1.5rem; /*outline-offset es usada para establecer el espacio entre un contorno outline y el límite o borde de un elemento.*/
 }
 
 .container .products-container .product:hover{
