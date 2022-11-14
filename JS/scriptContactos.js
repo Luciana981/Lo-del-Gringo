@@ -1,7 +1,7 @@
-let enviar = document.getElementById('enviar'); //se crean la variable del boton de envio
-let mail = document.getElementById('mail');//se creo la variable del campo de correo
-let usuario = document.getElementById('usuario');//se creo la variable del campo de usuario
-let password = document.getElementById('password');//se creo la variable del campo de la contra
+var enviar = document.getElementById('enviar'); //se crean la variable del boton de envio
+var mail = document.getElementById('mail');//se creo la variable del campo de correo
+var usuario = document.getElementById('usuario');//se creo la variable del campo de usuario
+var password = document.getElementById('contra');//se creo la variable del campo de la contra
 var sensorM = 0;
 var sensorC = 0;
 
@@ -15,7 +15,7 @@ function mover() {//se crea la funcion para que el boton de envio no se presione
         sensorM = sensorM + 1;
     }
 
-    if(password.value === null || password.value === ''){
+    if(contra.value === null || contra.value === ''){
         sensorM = sensorM + 1;
     }
 
