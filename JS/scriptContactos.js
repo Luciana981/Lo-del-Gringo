@@ -32,5 +32,8 @@ function crearEnviar() { //al hacer click que se cree un h1 y que se muevva todo
         mensaje.appendChild(h1);
         body.classList.toggle('vibrar');
     }
-
 } 
+
+function eliminar() { //Esta es la funcion para eliminar la etiqueta que se creo
+    h1.remove();
+}
