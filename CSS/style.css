@@ -40,14 +40,14 @@ header .contenedor{
     height: 500px;
 }
 
-header .menu{
+header .galeria{
     width: 100%;
     text-align: right;
     border-bottom: 1px solid var(--color-fuente);
 }
 
 /*Estilos a los elementos del header*/
-header .menu a{
+header .galeria a{
     text-decoration: none;
     display: inline-block;
     color:var(--color-fuente);
@@ -57,7 +57,7 @@ header .menu a{
     position: relative;
 }
 
-header .menu a:hover{
+header .galeria a:hover{
     text-decoration: underline;
 }
 
@@ -135,7 +135,7 @@ header .titulo h2{
     margin-bottom: 15px;
 }
 
-.principal .menu{
+.principal .galeria{
     padding-bottom: 650px;
     margin-bottom: 60px;
 }
@@ -184,7 +184,7 @@ header .titulo h2{
     }
 }
 
-.principal .menu .contenedor{
+.principal .galeria .contenedor{
     width: 70%;
     border: 5px solid var(--color-borde);
     background-color: var(--color-principal);
@@ -194,7 +194,7 @@ header .titulo h2{
     margin-bottom: -40%;
 }
 
-.principal .menu .contenedor .contenedor-muestra .contenedor-muestra2 img{
+.principal .galeria .contenedor .contenedor-muestra .contenedor-muestra2 img{
     width: 100%;
     margin-bottom: 30px;
     padding-bottom: 30px;
