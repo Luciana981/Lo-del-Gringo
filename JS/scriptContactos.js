@@ -2,10 +2,16 @@ var enviar = document.getElementById('enviar'); //se crean la variable del boton
 var mail = document.getElementById('mail');//se creo la variable del campo de correo
 var usuario = document.getElementById('usuario');//se creo la variable del campo de usuario
 var password = document.getElementById('contra');//se creo la variable del campo de la contra
-var sensorM = 0;
-var sensorC = 0;
+var sensorM = false;
+var sensorC = false;
 
 function mover() {//se crea la funcion para que el boton de envio no se presione hasta que los campos esten llenos
+
+    switch(sensorM){
+        case (usuario.value === null || usuario.value === ''):
+            sensorM = true;
+    }
+
 
     /*if (usuario.value === null || usuario.value === ''){//verifica que el campo del usuario este lleno
         sensorM = sensorM + 1;
