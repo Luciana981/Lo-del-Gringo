@@ -145,16 +145,10 @@ footer .izq-footer p{
     margin-top: -10%;
 }
 
-footer .izq-footer .locacion{
-    margin-bottom: 10%;
-}
-
-footer .izq-footer .telefono{
-    margin-bottom: 10%;
-}
-
 footer .izq-footer .locacion, .telefono{
     margin-top: 10%;
+    margin-left: -10%;
+    margin-bottom: 10%;
 }
 
 /*Fin de estilos en la parte izquiera del footer*/
@@ -169,11 +163,11 @@ footer .centro-footer{
 
 footer .centro-footer img{
     width: 45%;
-    margin-left: -6%;
+    margin-left: -12%;
 }
 
 footer .centro-footer p{
-    margin-left: -20%;
+    margin-left: -30%;
     font-size: 35px;
     margin-top: -45%;
     margin-bottom: 2%;
@@ -184,7 +178,8 @@ footer .centro-footer p{
 /*Comienzo de estilos en la parte derecha del footer*/
 
 footer .der-footer .horarios{
-    margin-left: 80%;
+    font-size: 16px;
+    margin-left: 75%;
     margin-top: -18%;
 }
 
