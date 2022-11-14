@@ -29,6 +29,8 @@ function crearEnviar() { //al hacer click que se cree un h1 y que se muevva todo
         h1 = document.getElementById("h1");
         h1 = document.createElement("h1");
         h1.innerHTML = "Tus datos se guardaron correctamente";
+        mensaje.appendChild(h1);
+        body.classList.toggle('vibrar');
     }
 
 } 
