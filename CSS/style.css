@@ -71,9 +71,6 @@ header .titulo .nombre{
     font-weight: 600;
 }
 
-header .titulo .nombre span{
-    font-weight: 200;
-}
 
 header .titulo img{
     width: 23%;
@@ -82,10 +79,6 @@ header .titulo img{
     margin-top: -9%;
 }
 
-header .titulo h2{
-    font-weight: 200;
-    font-size: 25px;
-}
 
 html{
     font-size: 62.5%;
