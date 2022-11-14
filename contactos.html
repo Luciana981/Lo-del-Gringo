@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo del Gringo</title>
+    <link rel="stylesheet" href="CSS/styleContactos.css">
+    <link rel="Icon" href="Imagenes/iconito.png">
+</head>
+<body>
+    <!--Aqui empieza el header-->
+    <header>
+        <div class="contenedor">
+            <!--Aqui comienza la barra navegadora-->
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="contactos.html">Contactos</a>
+            </nav>
+            <!--Aqui termina la barra navegadora-->
+        </div>
+    </header>
+    <!--Aqui termina el header-->
+    <h1>¡Contactanos!!</h1>
+    <div class="principal">
+        <div class="foto-muestra">
+            <img src="Imagenes/resto.jpg" alt="muestra">
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.5415919213874!2d-68.13310031551272!3d-38.93445392437354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a3357c3892b8f%3A0x80b1018a1ad91cb3!2s%C3%81ngel%20P%C3%A9rez%20Novella%205331%2C%20Q8300%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1668410721741!5m2!1ses-419!2sar" width="350" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="formulario">
+            <h2>Registro</h2>
+            <form action="#">
+                <label for="usuario">Nombre de usuario:</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre de usuario"><br>
+                <label for="correo">Correo electronico:</label>
+                <input type="text" name="correo" id="mail" placeholder="Ingrese su correo electronico"><br>
+                <label for="contra">Contraseña:</label>
+                <input type="password" name="contra" id="contra" placeholder="Ingrese su contraseña"><br>
+                <input type="button" name="boton" value="Enviar" id="enviar" onmouseover="mover()" onclick="crearEtiqueta()">
+            </form>
+        </div>
+    </div>
+    <!--Commienzo de footer-->
+    <footer>
+        <div class="izq-footer">
+            <div class="locacion">
+                <img src="imagenes/location.png" alt="locacion">
+                <p>Av. Perez Novella 5331, Neuquen Capital</p>
+            </div>
+            <div class="telefono">
+                <img src="imagenes/telephone.png" alt="telefono">
+                <p>299-6720711</p>
+            </div>
+        </div>
+        <div class="centro-footer">
+            <p>¡Ven a compartir con nosotros!</p>
+            <img src="imagenes/iconito.png" alt="logo footer">
+        </div>
+        <div class="der-footer">
+            <div class="horarios">
+                <h3>Horarios</h3>
+                <p>Lunes: Cerrado</p>
+                <p>Martes: 11:30-14:30 y 19:00-23:00</p>
+                <p>Miercoles: 11:30-14:30 y 19:00-23:00</p>
+                <p>Jueves: 11:30-14:30 y 19:00-23:00</p>
+                <p>Viernes: 11:30-14:30 y 19:00-23:00</p>
+                <p>Sabado: 11:30-14:30 y 19:00-23:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div>
+    </footer>
+    <!--Aqui termina el footer-->
+    <script src="js/scriptContactos.js"></script>
+</body>
+</html>

@@ -1,30 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
-
-*{
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    /* Font family es para el tipo de letra */
-
-    margin:0; padding:0;
-    /* Margin es el margen entre cajas y padding es el espacio entre el contenido de la caja y la caja */
-    
-    box-sizing: border-box; /*El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
-    outline: none;  /*se utilizan para establecer de forma abreviada el valor de una o más propiedades individuales. */
-    border:none;
-    text-decoration: none; /*text-decoration permite que el texto sea decorado, en este caso por ninguna*/
-    transition: all .2s linear; /*proporcionan una forma de animar los cambios de las propiedades CSS, en lugar de que los cambios surtan efecto de manera instantanea*/
-    text-transform: capitalize; /* text-transform especifica el cambio entre mayúsculas y minúsculas del texto de un elemento*/
 }
 
-:root { /*Root es una pseudoclase y selecciona el elemento de raiz que representa el documento*/
+
+/*Variables en root*/
+
+:root {
     --color-fuente: white;
     --color-principal: rgb(228, 177, 123);
     --color-transparente: rgba(206, 63, 63, 0.8);
     --colorclaro: rgb(243, 207, 96);
     --color-borde: black;
-    --color-footer:rgb(255, 239, 195);
+    --color-footer: rgb(255, 239, 195);
 }
 
+.contenedor {
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+
 /*Estilos en el header*/
+
 header {
     width: 100%;
     background-color: var(--color-principal);
@@ -33,210 +38,277 @@ header {
     background-position: center 0;
 }
 
-header .contenedor{
-    position: relative; /*es posicionado relativo a su posición normal, es decir, el elemento se coloca relativo al flujo normal*/
-    height: 100px; /*height especifica la altura de un elemento*/
+header .contenedor {
+    position: relative;
+    height: 500px;
 }
 
-header .menu{
-    width: 100%; /*width especifica la anchura del area de contenido de un elemento.*/
+header .menu {
+    width: 100%;
     text-align: right;
+    border-bottom: 1px solid var(--color-fuente);
 }
+
 
 /*Estilos a los elementos del header*/
-header .menu a{
+
+header .menu a {
     text-decoration: none;
-    display: inline-block; /*la propiedad display establece los tipos de visualización interna y externa de un elemento.*/
-    color:var(--color-fuente);
+    display: inline-block;
+    color: var(--color-fuente);
     font-size: 26px;
-    font-weight: 300; /*font-weight especifica el peso o grueso de la letra.*/
+    font-weight: 300;
     margin: 40px 40px;
     position: relative;
 }
 
-header .menu a:hover{
+header .menu a:hover {
     text-decoration: underline;
 }
 
-html{
-    font-size: 62.5%; /* font-size especifica la dimensión de la letra*/
-    overflow-x: hidden; /* La propiedad CSS overflow especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido en un elemento a nivel de bloque*/
-}
-
-body{
-    background: rgb(224, 222, 222); /* background es un atajo para definir los valores individuales del fondo*/
-}
-
-.container{
-    max-width: 1200px; /*max-width coloca el máximo ancho a un elemento.*/
-    margin:0 auto;
-    padding:3rem 2rem;
-}
-
-.container .title{
-    font-size: 3.5rem;
-    color:rgb(0, 0, 0);
-    margin-bottom: 3rem;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.container .products-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /*grid-template-columns define el nombre de las líneas y las funciones de tamaño de línea de grid columns.*/
-    gap:2rem; /*Es el ancho del canal que separa las columnas de la grilla*/
-}
-
-.container .products-container .product{
-    text-align: center;
-    padding:3rem 2rem;
-    background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    outline: .1rem solid #ccc;
-    outline-offset: -1.5rem; /*outline-offset es usada para establecer el espacio entre un contorno outline y el límite o borde de un elemento.*/
-}
-
-.container .products-container .product:hover{
-    outline: .2rem solid #222;
-    outline-offset: 0;
-}
-
-.container .products-container .product img{
-    height: 25rem;
-    width: 30rem;
-}
-
-.container .products-container .product:hover img{
-    transform: scale(.9); /*transform te permite modificar el espacio de coordenadas del modelo */
-}
-
-.container .products-container .product h3{
-    padding:.5rem 0;
-    font-size: 2rem;
-    color:#444;
-}
-
-.container .products-container .product:hover h3{
-    color:#ee7c1e;
-}
-
-.container .products-container .product .price{
-    font-size: 2rem;
-    color:#444;
-}
-
-.products-preview{
-    position: fixed;
-    top:0; left:0;
-    min-height: 100vh;
+header .titulo {
     width: 100%;
-    background: rgba(0,0,0,.8);
-    display: none;
-    align-items: center;
-    justify-content: center; /*justify-content define cómo el navegador distribuye el espacio entre y alrededor de los items */
-}
-
-.products-preview .preview{
-    display: none;
-    padding:2rem;
-    text-align: center;
-    background: #fff;
-    position: relative;
-    margin:2rem;
-    width: 40rem;
-}
-
-.products-preview .preview.active{
-    display: inline-block;
-}
-
-.products-preview .preview img{
-    height: 28rem;
-    width: 25rem;
-}
-
-.products-preview .preview .fa-times{
+    color: var(--color-fuente);
     position: absolute;
-    top:1rem; right:1.5rem;
-    cursor: pointer;
-    color:#444;
-    font-size: 4rem;
-}
- 
-.products-preview .preview .fa-times:hover{
-    transform: rotate(90deg);
+    top: 50%;
+    margin-top: -7%;
+    padding-left: 40%;
 }
 
-.products-preview .preview h3{
-    color:#444;
-    padding:.5rem 0;
-    font-size: 2.5rem;
+header .titulo .nombre {
+    font-size: 60px;
+    font-weight: 600;
 }
 
-.products-preview .preview p{
-    line-height: 1.5;
-    padding:1rem 0;
-    font-size: 1.6rem;
-    color:#777;
+header .titulo .nombre span {
+    font-weight: 200;
 }
 
-.products-preview .preview .price{
-    padding:1rem 0;
-    font-size: 2.5rem;
-    color:#27ae60;
+header .titulo img {
+    width: 23%;
+    position: absolute;
+    margin-left: -23%;
+    margin-top: -9%;
 }
 
-.products-preview .preview .buttons{
-    display: flex;
-    gap:1.5rem;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-}
-
-.products-preview .preview .buttons a{
-    flex:1 1 16rem;
-    padding:1rem;
-    font-size: 1.8rem;
-    color:#444;
-    border:.1rem solid #444;
-}
-
-.products-preview .preview .buttons a.cart{
-    background: #444;
-    color:#fff;
-}
-
-.products-preview .preview .buttons a.cart:hover{
-    background: #111;
-}
-
-.products-preview .preview .buttons a.buy:hover{
-    background: #444;
-    color:#fff;
+header .titulo h2 {
+    font-weight: 200;
+    font-size: 25px;
 }
 
 
-@media (max-width:991px){ /* @media asocia un grupo de declaraciones anidadas, en un bloque CSS delimitado por llaves.*/
+/*Fin de estilos del header*/
 
-    html{
-       font-size: 55%;
+
+/*Comienzo de la presentacion de la pagina*/
+
+.principal .historia {
+    overflow: visible;
+    position: relative;
+}
+
+.principal .historia .foto {
+    width: 53%;
+    position: absolute;
+    left: 17%;
+    margin-top: -4%;
+    z-index: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .35);
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.principal .historia article {
+    background-color: var(--color-fuente);
+    padding: 20px;
+    width: 50%;
+    margin-top: 30%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .35);
+    float: right;
+    border-radius: 10px;
+    border: 3px solid var(--color-principal);
+}
+
+.principal .historia article h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.principal .historia article p {
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+
+/*Aqui comienzas los estilos para efecto de tipeado*/
+
+.contenedor1 {
+    text-align: center;
+    margin-top: 6%;
+    overflow: hidden;
+}
+
+.contenedor1 .texto {
+    position: relative;
+    color: var(--color-principal);
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contenedor1 .texto.primer-texto {
+    color: var(--color-borde);
+}
+
+.texto.segundo-texto:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-fuente);
+    border-left: 2px solid var(--color-borde);
+    animation: animate 4s steps(12) infinite;
+}
+
+.texto.segundo-texto {
+    margin-left: 5px;
+}
+
+@keyframes animate {
+    40%,
+    60% {
+        left: calc(100% + 4px);
     }
- 
+    100% {
+        left: 0%;
+    }
 }
 
-@media (max-width:768px){
 
-    .products-preview .preview img{
-       height: 25rem;
-    }
- 
+/*Aqui finalizan los estilos del efecto de tipeado*/
+
+
+/*comienzo de estilos de la galeria de fotos*/
+
+.principal .galeria {
+    overflow: hidden;
 }
 
-@media (max-width:450px){
+.principal .galeria .foto {
+    width: 25%;
+    float: left;
+}
 
-    html{
-       font-size: 50%;
-    }
- 
-} 
- 
+.principal .galeria .foto img {
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+}
+
+.principal .galeria .foto img:hover {
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/*fin de la galeria de fotos*/
+
+
+/*Aqui terminan los estilos del contenido principal*/
+
+
+/*Aqui comienzan los estilos del footer*/
+
+footer {
+    background-color: var(--color-footer);
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    padding: 55px 50px;
+}
+
+footer .izq-footer .centro-footer .der-footer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/*Aqui comienzan los estilos en la parte izquierda*/
+
+footer .izq-footer {
+    width: 30%;
+    font-size: 20px;
+    margin-top: -2%;
+}
+
+footer .izq-footer img {
+    width: 10%;
+    margin-left: 7%;
+    padding-top: 18px;
+}
+
+footer .izq-footer p {
+    margin-left: 25%;
+    margin-top: -10%;
+}
+
+footer .izq-footer .locacion,
+.telefono {
+    margin-top: 10%;
+    margin-left: -10%;
+    margin-bottom: 10%;
+}
+
+
+/*Fin de estilos en la parte izquiera del footer*/
+
+
+/*Comienzos de estilos en la parte central del footer*/
+
+footer .centro-footer {
+    width: 40%;
+    margin-left: 45%;
+    margin-top: -12%;
+}
+
+footer .centro-footer img {
+    width: 45%;
+    margin-left: -12%;
+}
+
+footer .centro-footer p {
+    margin-left: -30%;
+    font-size: 35px;
+    margin-top: -45%;
+    margin-bottom: 2%;
+}
+
+
+/*Fin de estilos en la parte central del footer*/
+
+
+/*Comienzo de estilos en la parte derecha del footer*/
+
+footer .der-footer .horarios {
+    font-size: 16px;
+    margin-left: 80%;
+    margin-top: -18%;
+}
+
+footer .der-footer .horarios p {
+    margin-bottom: 7px;
+}
+
+footer .der-footer .horarios h3 {
+    margin-bottom: 10px;
+}
+
+
+/*Fin de los estilos del footer*/
