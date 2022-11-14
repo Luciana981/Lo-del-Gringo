@@ -57,28 +57,12 @@ header .menu a:hover{
     text-decoration: underline;
 }
 
-header .titulo{
-    width: 100%;
-    color: var(--color-fuente);
-    position: absolute;
-    top: 50%;
-    margin-top: -7%;
-    padding-left: 40%;
-}
-
-header .titulo .nombre{
-    font-size: 60px;
-    font-weight: 600;
-}
-
-
 .menu img{
     width: 23%;
     position: absolute;
     margin-left: -23%;
     margin-top: -9%;
 }
-
 
 html{
     font-size: 62.5%;
