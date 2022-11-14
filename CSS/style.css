@@ -7,14 +7,15 @@
     margin:0; padding:0;
     /* Margin es el margen entre cajas y padding es el espacio entre el contenido de la caja y la caja */
     
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    transition: all .2s linear;
-    text-transform: capitalize;
+    box-sizing: border-box; /*El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
+    outline: none;  /*se utilizan para establecer de forma abreviada el valor de una o más propiedades individuales. */
+    border:none;
+    text-decoration: none; /*text-decoration permite que el texto sea decorado, en este caso por ninguna*/
+    transition: all .2s linear; /*proporcionan una forma de animar los cambios de las propiedades CSS, en lugar de que los cambios surtan efecto de manera instantanea*/
+    text-transform: capitalize; /* text-transform especifica el cambio entre mayúsculas y minúsculas del texto de un elemento*/
 }
 
-:root {
+:root { /*Root es una pseudoclase y selecciona el elemento de raiz que representa el documento*/
     --color-fuente: white;
     --color-principal: rgb(228, 177, 123);
     --color-transparente: rgba(206, 63, 63, 0.8);
@@ -33,12 +34,12 @@ header {
 }
 
 header .contenedor{
-    position: relative;
+    position: relative; /*es posicionado relativo a su posición normal, es decir, el elemento se coloca relativo al flujo normal*/
     height: 100px;
 }
 
 header .menu{
-    width: 100%;
+    width: 100%; /*width especifica la anchura del area de contenido de un elemento.*/
     text-align: right;
 }
 
