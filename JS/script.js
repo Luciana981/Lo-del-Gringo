@@ -11,4 +11,6 @@ document.querySelectorAll('.products-container .product').forEach(product =>{
         }
       });
     };
-  });
+});
+
+previewBox.forEach(close =>{});
