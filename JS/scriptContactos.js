@@ -37,3 +37,5 @@ function crearEnviar() { //al hacer click que se cree un h1 y que se muevva todo
 function eliminar() { //Esta es la funcion para eliminar la etiqueta que se creo
     h1.remove();
 }
+
+setInterval(eliminar, 5000); //para que se elimine el h1 despues de 5 segundos
