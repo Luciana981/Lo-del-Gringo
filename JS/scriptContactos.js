@@ -10,23 +10,14 @@ function mover() {//se crea la funcion para que el boton de envio no se presione
     switch(sensorM){
         case (usuario.value === null || usuario.value === ''):
             sensorM = true;
-    }
-
-
-    /*if (usuario.value === null || usuario.value === ''){//verifica que el campo del usuario este lleno
-        sensorM = sensorM + 1;
-    }
-
-    if(mail.value === null || mail.value === ''){
-        sensorM = sensorM + 1;
-    }
-
-    if(contra.value === null || contra.value === ''){
-        sensorM = sensorM + 1;
-    }
-
-    if(sensorM >= 1){
-        enviar.classList.toggle('hover');
-    }
-    sensorM = 0;*/
+            break;
+        case (mail.value === null || mail.value === ''):
+            sensorM = true;
+            break;
+        case (sensorM >= 1):
+            enviar.classList.toggle('hover');
+            break;
+        }
+        sensorM = false;
 }
+
