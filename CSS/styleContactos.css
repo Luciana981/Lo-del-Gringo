@@ -70,6 +70,7 @@ h1{
 }
 
 .principal{
+    display: flex;
     width: 50%;
     margin-top: 5%;
     border-right: 3px solid var(--color-borde);
@@ -80,15 +81,36 @@ h1{
     position: absolute;
     z-index: 0;
     margin-left: 16%;
-    margin-top: -2%;
+    margin-top: 2%;
 }
 
 .principal .mapa{
     margin-left: 7%;
     margin-bottom: 15%;
-    margin-top: 13%;
+    margin-top: 8%;
     z-index: 1;
     position: relative;
+}
+
+.formulario{
+    margin-top: 10%;
+    margin-left: 65%;
+}
+
+h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: -10%;
+}
+
+input{
+    width: 200%;
+    height: 30px;
+}
+
+#enviar{
+    margin-top: 10%;
+    width: 70px;
 }
 
 /*Aqui comienzan los estilos del footer*/
