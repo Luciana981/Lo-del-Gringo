@@ -135,11 +135,6 @@ header .titulo h2{
     margin-bottom: 15px;
 }
 
-.principal .galeria{
-    padding-bottom: 650px;
-    margin-bottom: 60px;
-}
-
 .contenedor1{
     text-align: center;
     margin-top: 6%;
@@ -184,24 +179,31 @@ header .titulo h2{
     }
 }
 
-.principal .galeria .contenedor{
-    width: 70%;
-    border: 5px solid var(--color-borde);
-    background-color: var(--color-principal);
-    padding: 15px;
+/*comienzo de estilos de la galeria de fotos*/
+
+.principal .galeria{
     overflow: hidden;
-    margin-top: 7%;
-    margin-bottom: -40%;
 }
 
-.principal .galeria .contenedor .contenedor-muestra .contenedor-muestra2 img{
-    width: 100%;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    border-bottom: 4px solid;
-    overflow: hidden;
-    display: inline-block;
+.principal .galeria .foto{
+    width: 25%;
+    float: left;
 }
+
+.principal .galeria .foto img{
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+}
+
+.principal .galeria .foto img:hover{
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+/*fin de la galeria de fotos*/
 
 /*Aqui terminan los estilos del contenido principal*/
 
