@@ -5,15 +5,15 @@ let password = document.getElementById('password');//se creo la variable del cam
 var sensor1 = 0;
 
 function mover() {//se crea la funcion para que el boton de envio no se presione hasta que los campos esten llenos
-    if (usuario.value = null){//verifica que el campo del usuario este lleno
+        if (usuario.value = null || usuario.value == ''){//verifica que el campo del usuario este lleno
         sensor1 = sensor1 + 1;
     }
 
-    if(mail.value = null){
+    if(mail.value = null || mail.value == ''){
         sensor1 = sensor1 + 1;
     }
 
-    if(password.value = null){
+    if(password.value = null || password.value == ''){
         sensor1 = sensor1 + 1;
     }
 
