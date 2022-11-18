@@ -257,6 +257,8 @@ body {
 .modal-show{
     opacity: 1;
     pointer-events: unset;
+    transition: opacity .6s;
+    
 }
 
 .modal-contenedor{
