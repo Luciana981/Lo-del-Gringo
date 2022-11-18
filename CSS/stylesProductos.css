@@ -291,6 +291,7 @@ body {
 }
 
 .modal-lista{
+    list-style: none;
     width: 110%;
     max-width: 400px;
     font-size: 2rem;
@@ -313,8 +314,6 @@ body {
     color:  #faae20;
     background-color: #fff;
 }
-
-
 
 /* Aca termina el modal */
 
