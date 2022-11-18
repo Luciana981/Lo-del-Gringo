@@ -254,6 +254,7 @@ body {
     pointer-events: none;
     transition: opacity .6s;
     --transform: translateY(-100vh);
+    --transition: transform .8s
 }
 
 .modal-show{
