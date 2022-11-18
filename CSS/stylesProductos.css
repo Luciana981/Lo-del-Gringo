@@ -251,10 +251,12 @@ body {
     background-color: #111111bd;
     display: flex;
     opacity: 0;
+    pointer-events: none;
 }
 
 .modal-show{
-
+    opacity: 1;
+    pointer-events: unset;
 }
 
 .modal-contenedor{
