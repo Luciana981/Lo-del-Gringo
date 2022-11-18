@@ -250,6 +250,7 @@ body {
     bottom: 0;
     background-color: #111111bd;
     display: flex;
+    opacity: 0;
 }
 
 .modal-show{
