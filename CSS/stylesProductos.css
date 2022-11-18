@@ -252,6 +252,10 @@ body {
     display: flex;
 }
 
+.modal-show{
+
+}
+
 .modal-contenedor{
     margin: auto;
     width: 90%;
@@ -295,10 +299,6 @@ body {
 .modal-cerrar:hover{
     color:  #f8bc4c;
     background-color: #fff;
-}
-
-.modal-show{
-    
 }
 
 /* Aca termina el modal */
