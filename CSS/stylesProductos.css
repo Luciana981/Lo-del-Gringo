@@ -249,6 +249,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: #111111bd;
+    display: flex;
 }
 
 .modal-contenedor{
