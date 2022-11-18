@@ -314,6 +314,13 @@ body {
     background-color: #fff;
 }
 
+ol li::marker{
+    font-size: 15px;
+    box-shadow: #f30000;
+    border: #ee7c1e;
+    border-radius: 10px;
+}
+
 /* Aca termina el modal */
 
 @media (max-width:991px) {
