@@ -263,6 +263,7 @@ body {
     display: grid;
     gap: 1em;
     place-items: center;
+    grid-auto-columns: 100%;
 }
 
 /* Aca termina el modal */
