@@ -276,6 +276,7 @@ body {
     place-items: center;
     grid-auto-columns: 100%;
     transform: var(--transform);
+    transition: transform .3s;
 }
 
 .modal-titulo{
