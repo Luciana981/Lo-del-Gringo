@@ -258,6 +258,7 @@ body {
     max-width: 600px;
     max-height: 90%;
     background-color: rgb(255, 255, 255);
+    border-radius: 8px;
 
 }
 
