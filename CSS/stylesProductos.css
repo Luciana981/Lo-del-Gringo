@@ -282,7 +282,8 @@ body {
 
 .modal-cerrar{
     text-decoration: none;
-    color: #fff;
+    color: rgb(8, 8, 8);
+    background-color: #fad694;
 }
 
 /* Aca termina el modal */
