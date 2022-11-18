@@ -1,7 +1,7 @@
-const boton = document.querySelector ('.compra');
-const modal = document.querySelector ('.modal')
+const openModal = document.querySelector('.compra');
+const modal = document.querySelector('.modal');
 
-boton.addEventListener('click', (i) =>{
-    i.preventDefault ();
-    modal.classList.add('modal-show')
+openModal.addEventListener('click', (e)=>{
+    e.preventDefault ();
+    modal.classList.add('modal-show');
 });
