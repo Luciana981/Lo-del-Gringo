@@ -1,1 +1,1 @@
-const openModal = document.querySelector ('.compra')
+const boton = document.querySelector ('.compra');
