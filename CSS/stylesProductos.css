@@ -253,6 +253,7 @@ body {
 }
 
 .modal-contenedor{
+    margin: auto;
     width: 90%;
     background-color: rgb(255, 255, 255);
 
