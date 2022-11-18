@@ -292,6 +292,10 @@ body {
     transition: backround-color .3s;
 }
 
+.modal-cerrar:hover{
+    color:  #fad694;
+}
+
 /* Aca termina el modal */
 
 @media (max-width:991px) {
