@@ -314,10 +314,7 @@ body {
     background-color: #fff;
 }
 
-ol li::marker{
-    font-size: 15px;
-    color: #000000;
-}
+
 
 /* Aca termina el modal */
 
