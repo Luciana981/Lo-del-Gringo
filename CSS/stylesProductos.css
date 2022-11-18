@@ -280,6 +280,11 @@ body {
     max-width: 400px;
 }
 
+.modal-cerrar{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Aca termina el modal */
 
 @media (max-width:991px) {
