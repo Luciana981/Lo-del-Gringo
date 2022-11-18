@@ -244,6 +244,8 @@ body {
 
 .modal{
     position:fixed;
+    top: 0;
+    left: 0;
 }
 
 /* Aca termina el modal */
