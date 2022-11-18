@@ -251,6 +251,11 @@ body {
     background-color: #111111bd;
 }
 
+.modola-contenedor{
+    width: 90%;
+    background-color: #fff;
+}
+
 /* Aca termina el modal */
 
 @media (max-width:991px) {
