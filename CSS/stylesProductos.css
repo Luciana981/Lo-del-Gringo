@@ -251,9 +251,10 @@ body {
     background-color: #111111bd;
 }
 
-.modola-contenedor{
+.modal-contenedor{
     width: 90%;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+
 }
 
 /* Aca termina el modal */
