@@ -282,7 +282,7 @@ body {
 
 .modal-cerrar{
     text-decoration: none;
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     background-color: #fad694;
     padding: 1em 3em ;
     border: 1px solid;
@@ -293,8 +293,12 @@ body {
 }
 
 .modal-cerrar:hover{
-    color:  #fad694;
+    color:  #f8bc4c;
     background-color: #fff;
+}
+
+.modal-show{
+    
 }
 
 /* Aca termina el modal */
