@@ -259,6 +259,7 @@ body {
     max-height: 90%;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
+    pad: 3em 2.5em;
 
 }
 
