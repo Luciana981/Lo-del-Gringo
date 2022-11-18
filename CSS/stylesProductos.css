@@ -260,7 +260,8 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     padding: 3em 2.5em;
-
+    display: grid;
+    gap: 1em;
 }
 
 /* Aca termina el modal */
